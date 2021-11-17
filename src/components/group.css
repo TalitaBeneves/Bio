@@ -17,7 +17,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #43065c;
+  background: #8303b6;
   border-radius: 4px;
 }
 
@@ -44,11 +44,18 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
 }
 
+.container :hover{
+  transform: scale(1.02);
+  transition: all 0.1s ease-in-out;
+  border:#FFF;  
+}
+
 .text {
   font-size: 25px;
   text-align: center;
   align-items: center;
   margin-top: 90px;
+  cursor: pointer;
 }
 
 .social {
@@ -60,10 +67,6 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
-.social :hover{
-  transform:translate(1) ;
-}
-
 a {
   text-decoration: none;
   color: white;
@@ -72,6 +75,7 @@ a {
 a:visited {
   text-decoration: none;
 }
+
 
 #linkedin {
   background: rgb(19, 60, 122);

@@ -17,7 +17,7 @@ const Group = () => {
       <div className="social" id="linkedin">
       <h2><a href="https://www.linkedin.com/in/talitabeneves"><FaLinkedinIn id="icon"/> Linkedin </a> </h2> 
       </div>
-
+        
       <div className="social" id="portfolio">
         <h2><a href=""><MdComputer id="icon"/> Portfólio </a> </h2> 
       </div>
