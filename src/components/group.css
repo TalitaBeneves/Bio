@@ -3,8 +3,7 @@ body {
   padding: 0;
   margin: 0;
   background: var(--color-bg);
-  color: #FFF;
-  font-family: var(--font-family);
+ 
 }
 
 body::-webkit-scrollbar {
@@ -21,16 +20,6 @@ body::-webkit-scrollbar-thumb {
   border-radius: 4px;
 }
 
-.container {
-  display: flex;
-  justify-items: center;
-  flex-wrap: wrap;
-  max-width: 600px;
-  margin: 0 auto;
-  gap: 0.5rem;
-  padding: 5px;
-  margin-bottom: 0.5rem;
-}
 
 .container img {
   margin: 20px;
@@ -40,8 +29,8 @@ body::-webkit-scrollbar-thumb {
   border-radius: 50%;
   margin-top: 20px;
   margin-bottom: 0.1rem;
-  align-items: center;
   text-align: center;
+  align-items: center;
 }
 
 .container :hover{
@@ -55,8 +44,22 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   align-items: center;
   margin-top: 90px;
+  color: var(--color-text);
   cursor: pointer;
 }
+
+.container {
+  display: flex;
+  justify-items: center;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 0 auto;
+  gap: 0.5rem; 
+  padding: 5px;
+  margin-bottom: 0.5rem;
+  flex-grow: 1;
+}
+
 
 .social {
   margin: 20px;
@@ -70,39 +73,56 @@ body::-webkit-scrollbar-thumb {
 a {
   text-decoration: none;
   color: white;
+  text-transform: none;
 }
 
 a:visited {
   text-decoration: none;
 }
 
-
 #linkedin {
-  background: rgb(19, 60, 122);
+  background: var(--gradient-group-linkedin);
   text-align: center;
-  border-radius: 4px;  
+  border-radius: 18px;  
+ 
   
 }
 
 #portfolio {
-  background:#bc1888;
+  background: var(--gradient-group-portfolio);
   text-align: center;
-  border-radius: 4px;
+  border-radius: 18px;
 }
 
 #instagram {
   top: 1px;
-  background: linear-gradient( 45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100% );
+  background: var(--gradient-group-instagram);
   text-align: center;
-  border-radius: 4px;
+  border-radius: 18px;
 }
 
 #github {
-  background: rgb(46, 45, 45);
+  background: var(--gradient-group-github);
   text-align: center;
-  border-radius: 4px;
+  border-radius: 18px;
 }
 
-#icon {
+ #icon {
   margin-bottom: -3px;
+  color: var(--color-subtext);
+}
+
+@media screen and (max-width: 365px){
+    .container img {
+      width: 100%;
+      height: 100%;
+      margin-left: -20px;
+      
+    }
+
+    .text {
+      text-align: center;
+      align-items: center;
+      margin-left: 85px;
+    }
 }

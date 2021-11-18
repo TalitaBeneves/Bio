@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
-  --font-family: 'Manrope', sans-serif;
-
+ 
   --gradient-text: linear-gradient(90deg, rgba(238, 130, 238, 1) 0%, rgba(0, 209, 255, 1) 100%);
   --gradient-bar: linear-gradient(90deg, rgba(238, 130, 238, 1) 0%, rgba(0, 209, 255, 1) 100%);
+  --gradient-group-linkedin: linear-gradient(90deg, rgba(51, 120, 204, 1) 0%, rgba(22, 38, 77, 1) 100%);
+  --gradient-group-portfolio: linear-gradient(90deg, rgba(143, 38, 147, 1) 0%, rgba(218, 52, 52, 1) 100%);
+  --gradient-group-instagram: linear-gradient( 45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100% );
+  --gradient-group-github: linear-gradient(90deg, rgba(39, 39, 40, 1) 0%, rgba(0, 0, 0, 1) 100%);
   
-  --color-bg: #040C18;
+  
+  --color-bg: linear-gradient(90deg, rgba(154, 25, 69, 1) 0%, rgba(103, 58, 183, 1) 100%);
   --color-text: #81AFDD;
-  --color-subtext: #FF8A71;
-  
+  --color-subtext: #03A9F4;
 }
