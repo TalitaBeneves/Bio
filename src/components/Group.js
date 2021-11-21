@@ -14,16 +14,16 @@ const Group = () => {
         Talita Beneves <br/> 19 anos <br/>Rio de Janeiro
       </h3>
 
-      <div className="social" id="linkedin">
-      <h2><a href="https://www.linkedin.com/in/talitabeneves" rel="noreferre" target="_blank" ><FaLinkedinIn id="icon"/> Linkedin </a> </h2> 
+      <div className="social" id="portfolio">
+        <h2><a href="https://talitabeneves.github.io/Portifolio/" rel="noreferre" target="_blank" ><MdComputer id="icon"/> Portfólio </a> </h2> 
       </div>
 
       <div className="social" id="github" >
         <h2><a href="https://github.com/TalitaBeneves" rel="noreferre" target="_blank" ><FaGithub id="icon"/> Github </a> </h2> 
       </div>
         
-      <div className="social" id="portfolio">
-        <h2><a href="https://talitabeneves.github.io/Portifolio/" rel="noreferre" target="_blank" ><MdComputer id="icon"/> Portfólio </a> </h2> 
+      <div className="social" id="linkedin">
+      <h2><a href="https://www.linkedin.com/in/talitabeneves/" rel="noreferre" target="_blank" ><FaLinkedinIn id="icon"/> Linkedin </a> </h2> 
       </div>
 
       <div className="social" id="instagram">
