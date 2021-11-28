@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Bio/static/css/main.cb374de1.chunk.css",
-    "main.js": "/Bio/static/js/main.98716d25.chunk.js",
-    "main.js.map": "/Bio/static/js/main.98716d25.chunk.js.map",
+    "main.css": "/Bio/static/css/main.38229548.chunk.css",
+    "main.js": "/Bio/static/js/main.e2b34710.chunk.js",
+    "main.js.map": "/Bio/static/js/main.e2b34710.chunk.js.map",
     "runtime-main.js": "/Bio/static/js/runtime-main.9787bcd4.js",
     "runtime-main.js.map": "/Bio/static/js/runtime-main.9787bcd4.js.map",
     "static/js/2.b5cc4dd3.chunk.js": "/Bio/static/js/2.b5cc4dd3.chunk.js",
     "static/js/2.b5cc4dd3.chunk.js.map": "/Bio/static/js/2.b5cc4dd3.chunk.js.map",
     "index.html": "/Bio/index.html",
-    "static/css/main.cb374de1.chunk.css.map": "/Bio/static/css/main.cb374de1.chunk.css.map",
+    "static/css/main.38229548.chunk.css.map": "/Bio/static/css/main.38229548.chunk.css.map",
     "static/js/2.b5cc4dd3.chunk.js.LICENSE.txt": "/Bio/static/js/2.b5cc4dd3.chunk.js.LICENSE.txt",
     "static/media/foto.193ed24d.jpg": "/Bio/static/media/foto.193ed24d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9787bcd4.js",
     "static/js/2.b5cc4dd3.chunk.js",
-    "static/css/main.cb374de1.chunk.css",
-    "static/js/main.98716d25.chunk.js"
+    "static/css/main.38229548.chunk.css",
+    "static/js/main.e2b34710.chunk.js"
   ]
 }
