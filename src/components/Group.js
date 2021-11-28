@@ -15,7 +15,7 @@ const Group = () => {
       </h3>
 
       <div className="social" id="portfolio">
-        <h2><a href="https://talitabeneves.github.io/Portifolio/" rel="noreferre" target="_blank" ><MdComputer id="icon"/> Portfólio </a> </h2> 
+        <h2><a href="https://talitabeneves.github.io/Portfolio/" rel="noreferre" target="_blank" ><MdComputer id="icon"/> Portfólio </a> </h2> 
       </div>
 
       <div className="social" id="github" >
